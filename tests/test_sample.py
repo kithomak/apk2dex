@@ -1,4 +1,10 @@
-# Sample Test passing with nose and pytest
+import os
+import pytest
 
-def test_pass():
+from apk2dex import apk2dex
+
+
+def test_apk2dex_sanity():
     assert True, "dummy sample test"
+
+
