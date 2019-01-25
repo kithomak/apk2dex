@@ -1,0 +1,2 @@
+[run]
+omit = apk2dex/__main__.py

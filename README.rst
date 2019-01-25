@@ -1,13 +1,15 @@
 apk2dex
 =======
 
-.. image:: https://img.shields.io/pypi/v/apk2dex.svg
-    :target: https://pypi.python.org/pypi/apk2dex
-    :alt: Latest PyPI version
+.. comment
+    .. image:: https://img.shields.io/pypi/v/apk2dex.svg
+        :target: https://pypi.python.org/pypi/apk2dex
+        :alt: Latest PyPI version
 
-.. image:: https://travis-ci.org/borntyping/cookiecutter-pypackage-minimal.png
-   :target: https://travis-ci.org/borntyping/cookiecutter-pypackage-minimal
-   :alt: Latest Travis CI build status
+.. comment
+    .. image:: https://travis-ci.org/borntyping/cookiecutter-pypackage-minimal.png
+        :target: https://travis-ci.org/borntyping/cookiecutter-pypackage-minimal
+        :alt: Latest Travis CI build status
 
 A very raw APK to DEX file extractor.
 
@@ -45,7 +47,7 @@ For example:
 
    python apk2dex my_apk_file.apk my_output_folder -v
 
-After installation, you can run from any folder
+After installation, you can run from any folder (note the ``-m`` flag):
 
 .. code:: bash
 
