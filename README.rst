@@ -47,6 +47,12 @@ For example:
 
    python apk2dex my_apk_file.apk my_output_folder -v
 
+or
+
+.. code:: bash
+
+   python apk2dex my_input_folder my_output_folder -v
+
 After installation, you can run from any folder (note the ``-m`` flag):
 
 .. code:: bash
