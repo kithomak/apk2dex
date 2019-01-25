@@ -67,7 +67,7 @@ def apk2dex_folder(src_dir, dst_dir, verbose=True, log=None):
                 bad_files.append(file)
     if log:
         with open(log, "w") as f:
-            f.writelines(bad_files)
+            f.write("\n".join(bad_files))
 
 
 if __name__ == "__main__":
