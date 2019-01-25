@@ -7,7 +7,7 @@ def main(args):
     if os.path.isfile(args.input):
         apk2dex(args.input, args.output, args.verbose)
     elif os.path.isdir(args.input):
-        apk2dex_folder(args.input, args.output, args.verbose)
+        apk2dex_folder(args.input, args.output, args.verbose, args.log)
     else:
         raise ValueError("Incorrect input file or folder.")
 
