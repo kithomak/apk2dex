@@ -1,6 +1,9 @@
 apk2dex
 =======
 
+.. image:: https://img.shields.io/lgtm/grade/python/g/kithomak/apk2dex.svg?logo=lgtm&logoWidth=18
+    :alt: Language grade: Python
+
 .. comment
     .. image:: https://img.shields.io/pypi/v/apk2dex.svg
         :target: https://pypi.python.org/pypi/apk2dex
